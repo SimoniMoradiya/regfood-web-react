@@ -1,0 +1,91 @@
+.sing-in-bg{
+    background-image: url('../images/home3_bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.sign-in-overly{
+    background-color: rgba(238,246,235,0.3);
+    padding: 120px 0px;
+}
+
+.sing-in-container{
+    width: 600px;
+}
+
+.sign-in-form-input label{
+    color: var(--hadding-text-color) !important;
+    font-size: 18px;
+    font-family: var(--hading-font);
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.sign-in-form-input input{
+    background-color: #fff;
+}
+
+.sign-in-form-input input, .sign-in-btn{
+    box-shadow: var(--box-shadow);
+    
+}
+
+.sign-in-btn:hover{
+    background-color: var(--sub-text-color);
+}
+
+.sign-in-form-input input:focus{
+    border-color: var(--sub-text-color);
+}
+
+.sign-in-form-input{
+    position: relative;
+}
+
+.sign-in-form-input .icon{
+    position: absolute;
+    top: 53px;
+    right: 20px;
+    background-color: transparent !important;
+    padding: 0px !important;
+    border: 0px !important;
+    cursor: pointer;
+}
+
+.sign-up-link{
+    text-align: center;
+    padding: 50px 0px 0px;
+    color: var(--hadding-text-color);
+    font-size: 20px;
+    font-family: var(--hading-font);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+}
+
+.sign-up-link .sign-up-link-text{
+    color: var(--sub-text-color) !important;
+    text-decoration: none;
+    padding: 4px 0px;
+
+}
+
+.sign-up-link-text:hover{
+    border-bottom: 2px solid;
+}
+
+.error-message{
+    color: var(--sub-text-color);
+    font-weight: 600;
+    padding: 10px 0px 0px;
+    display: block;
+}
+
+@media(max-width:767px){
+
+    .sing-in-container{
+        width: 100%;
+    }
+}

@@ -1,0 +1,293 @@
+/************************** about-hero-section ***********************************/
+
+.breadcrumb-bg{
+    background-image: url('../images/breadcrumb_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+.breadcrumb-bg-overly{
+    padding: 135px 0px;
+    background: #231f40a3;
+    height: 100%;
+    position: relative;
+}
+
+.breadcrumb-hadding{
+    color:var(--pg-text-color);
+    font-family: var(--hading-font);
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+@media(max-width:1024px){
+    .breadcrumb-bg-overly{
+        padding: 90px 0px;
+    }
+}
+
+@media(max-width:767px){
+
+    .breadcrumb-bg-overly{
+        padding: 80px 0px;
+    }
+}
+
+/************************************************ breadcrumb ******************************/
+
+.breadcrumb-link{
+ color: var(--pg-text-color);
+ text-decoration: none;
+ text-transform: capitalize;
+ font-size: 16px;
+ position: relative;
+ padding-right: 5px;
+ font-weight: 600;
+ letter-spacing: 0.5px;
+}
+
+.breadcrumb-link i{
+    margin-right: 5px;
+}
+
+.breadcrumb-active{
+    color: var(--sub-text-color);
+    font-size: 16px;
+ position: relative;
+ font-weight: 600;
+}
+
+.breadcrumb-active i{
+    color: var(--pg-text-color);
+}
+
+
+/******************************************** about-company ********************************************/
+
+.about-company-sec{
+    padding: 100px 0px;
+}
+
+.about-company-img{
+    position: relative;
+}
+
+.about-company-img .img{
+    overflow: hidden;
+    width: 500px;
+    height: 500px ;
+    border-radius: 0px 100px 100px 0px;
+    border: 10px solid var(--pg-text-color);
+    box-shadow: var(--box-shadow);
+}
+
+.about-company-img-heding{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: var(--sub-text-color);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--pg-text-color);
+    padding: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    border: 5px solid var(--pg-text-color);
+    font-family: var(--hading-font);
+}
+
+.about-company-img-heding span{
+    font-size: 19px;
+    margin-bottom: 10px;
+    display: block;
+    color: var(--pg-text-color);
+    font-weight: 400;
+}
+
+.about-company-img-text{
+    position: absolute;
+    background-color: var(--seller-hadding);
+    color: var(--pg-text-color);
+    width: 350px;
+    padding: 20px;
+    bottom: 50px;
+    right: 0;
+    border: 5px solid var(--pg-text-color);
+    border-radius: 40px 0px 40px 0px;
+    letter-spacing: 0.5px;
+}
+
+.about-company-img-text span{
+    display: block;
+    color: var(--sub-text-color);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: right;
+    font-family: var(--sub-font-cuv);
+    margin-left: 15px;
+}
+
+.about-company{
+    padding-left: 20px;
+}
+
+.about-company-hadding{
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.about-company-hadding h2{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.about-company-text, .company-info-list-text{
+    color: var(--text-font-color);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+
+
+.about-comapny-info-list{
+    padding-top: 25px;
+}
+
+.api-img {
+    width: 70px;
+    height: 70px;
+}
+
+.api-img-col-1{
+    align-items: center;
+}
+
+.api-img-col-2{
+    padding-left: 30px;
+}
+
+.company-info-list-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: var(--hading-font);
+    color: var(--hadding-text-color);
+    letter-spacing: 0.5px;
+}
+
+
+/****************************************************** vision-mission-goals ******************************************/
+
+.mission-bg-sec{
+    background-image: var(--about-mission-bg-img);
+    padding: 70px 0px 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mission-inner-row{
+    align-items: center;
+}
+
+.mission-col{
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    background-color: var(--seller-hadding);
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+.mission-icon{
+    background-color: var(--sub-text-color);
+    margin-right: 30px;
+    margin-left: 10px;
+    padding: 15px;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    text-align: center;
+    transform: rotate(45deg);
+}
+
+.mission-icon img{
+    transform: rotate(-45deg);
+}
+
+.mission-col-2{
+    padding-left: 70px;
+}
+
+.mission-title{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--hading-font);
+    color: var(--pg-text-color);
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.mission-info{
+    color:var(--pg-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+    text-align: left;
+}
+
+.mission-row .mission-col:nth-child(2){
+    left: 110px;
+}
+
+
+@media(max-width:1024px){
+    .mission-row .mission-col:nth-child(2) {
+        left: 0px;
+    }
+
+    .about-company-img-heding{
+        right: 135px;
+    }
+}
+
+/**************************************** why choose us *************************************/
+
+.choose-sec{
+    padding: 100px 0px;
+}
+
+.about-choose-img {
+    width: 405px;
+    height: 465px;
+    margin-left: 90px;
+}
+
+/********************* menu *****************/
+
+.menu-author{
+    font-size: 18px !important;
+    margin-top: 5px;
+}
+
+.menu-api-btn{
+    bottom: 35px;
+}
